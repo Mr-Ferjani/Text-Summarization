@@ -1,0 +1,10 @@
+1 - Github Repository setup (Then clone into local computer)
+2 - Project Template creation (By Running template.py)
+3 - Project setup and Requirements installation
+4 - Logging, Utils and Exception handeling
+5 - Project Workflows
+6 - All components experiment in Notebook  
+7 - All components implementation in a modular fashion
+8 - Training pipeline
+9 - Prediction Pipeline
+10 - Final CI/CD Deployment on AWS
