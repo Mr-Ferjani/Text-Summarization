@@ -36,11 +36,4 @@ class DataIngestion:
         #Extracting zip file and uploading inside unzip folder
         with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
             zip_ref.extractall(unzip_path)
-try:
-    config = ConfigurationManager()
-    data_ingestion_config = config.get_data_ingestion_config()
-    data_ingestion = DataIngestion(config=data_ingestion_config)
-    data_ingestion.download_file()
-    data_ingestion.extract_zip_file()
-except Exception as e:
-    raise e
+
